@@ -20,7 +20,7 @@ def index():
 def predict():
     N = request.form['Nitrogen']
     P = request.form['Phosporus']
-    K = request.form['Potassium']
+    K = request.form['Potassium'] 
     temp = request.form['Temperature']
     humidity = request.form['Humidity']
     ph = request.form['Ph']
